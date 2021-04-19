@@ -13,7 +13,7 @@ const AdminServiceList = () => {
     const [totalServiceList, setTotalServiceList] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:7000/customerServiceList`)
+        fetch(`https://ancient-cove-35788.herokuapp.com/customerServiceList`)
             .then(res => res.json())
             .then(data => {
                 setTotalServiceList(data);

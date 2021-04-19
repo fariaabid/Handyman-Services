@@ -6,7 +6,7 @@ const ClientsFeedback = () => {
     const [feedbackData, setFeedbackData] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:7000/feedback`)
+        fetch(`https://ancient-cove-35788.herokuapp.com/feedback`)
             .then(res => res.json())
             .then(data => {
                 setFeedbackData(data);

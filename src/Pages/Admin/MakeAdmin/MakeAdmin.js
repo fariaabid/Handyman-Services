@@ -12,7 +12,7 @@ const MakeAdmin = () => {
     
     const onSubmit = (data) => {
         console.log(data);
-        fetch('http://localhost:7000/makeAdmin', {
+        fetch('https://ancient-cove-35788.herokuapp.com/makeAdmin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
