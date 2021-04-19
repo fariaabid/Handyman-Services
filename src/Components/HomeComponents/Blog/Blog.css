@@ -1,0 +1,23 @@
+body {
+    color: grey;
+    font-family: "Roboto",sans-serif;
+}
+.boxed-btn {
+    background-color: #ee0d09;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: 700;
+    border-radius: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.section-title h2 {
+    color: #08194a;
+    font-weight: 700;
+    text-transform: capitalize;
+}
